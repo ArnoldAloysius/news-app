@@ -1,9 +1,9 @@
- function News(props)
+function News(props)
 {
     return(
         <div className="News">
             <div className="news-img">
-            <img src={props.article.urlToImage}/>
+            <img src={props.article.urlToImage}alt="news"/>
             </div>
             <h1>{props.article.title}</h1>
 
